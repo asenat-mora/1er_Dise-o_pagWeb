@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="es"> <!-- Lenguaje/idioma del doc web -->
+<head>
+    <!-- meta = metadatos -->
+    <meta charset="UTF-8"> <!-- reconoce conf. ascii -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- explorador IE=edge -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- escala de la pag --> 
+    <title>Mi pagina</title> <!-- titulo  -->
+    <style>
+        *{
+            box-sizing: border-box;/*border-box hace que el contenido se adapte a la apag  */
+
+        }
+        body{/* agregar formato de letra al body */
+            font-family: 'Times New Roman', Times, serif;
+        }
+        header{/* estilo del encabezado */
+            background-color: #C996CC;
+            padding: 30px; /* ENGRANDAR el  background*/
+            text-align: center; /* centrar texto */
+            font-size: 25px;/* tamaño del encabezado */
+            color: darkslateblue;/* color de encabezado */
+        }
+        nav{/* ahorita tiene una lista */
+            float: left; /* cambia la posicion del contenido a izq */
+            width: 30%;/* cambia la anchura del contenido */
+             /*height: modificar la altura */
+             background: lemonchiffon;/* color de fondo */
+            padding: 20px;/* modificar anchura */
+        }
+        nav ul{/* dentro de nav hay una lista desordenada */
+            list-style: none;/* nonen quita el estilo de lista */
+            padding: 0%;/* que no se aleje la lista o se mueva hacia otro lado */
+        }
+        article{
+            float: left;
+            padding: 20px;
+            width: 60%;
+            background: azure;
+            height: 200px;/* altura */
+
+        }
+        section{
+            display: table;
+            content: "";
+            clear: both;
+
+        }
+        footer{
+            background: darksalmon;
+            padding: 20px;
+            text-align: 20px;/* alinear texto  */
+        }
+        /* Responsivo */
+        @media (max-width:600px){
+            nav,article{/* el articulo de va debajo dle menu cuando la pag se hace pequeña */
+                width: 100%;
+                height: auto;
+            }
+        }
+        
+
+    </style>
+
+</head>
+<body>
+    <!-- Etiquetas de texto -->
+    <p> <!-- bloque de parrafo -->
+        
+        <!-- encabezados -->
+        <!--  h1,h2 etc.. son la gerarquia -->
+        <h1>Encabezado 1 </h1>
+
+         <!-- lorem genera texto aleatorio -->
+        <!-- strong sirve apra poner en negritas se tiene que abrir y cerrar -->
+        <!-- em sirve para enfalizar -->
+       <!--  mark para marcar  -->
+       <!-- cite indicar una cita -->
+       <!--br saltos de linea -->
+         Lorem ipsum <strong>dolor sit</strong>  amet <em>consectetur adipisicing</em>  elit. Voluptate molestias, <mark>nesciunt quod laudantium</mark> , a deserunt odit ipsam accusamus <cite>tempore adipisci rem quia illum</cite>  quo quis. 
+         <br> Culpa architecto temporibus reprehenderit libero.
+
+    </p>
+    <p>
+        <h2>Encabezado 2</h2>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit eaque possimus officia a temporibus debitis totam hic, mollitia rerum! Laboriosam officia ex accusamus aspernatur doloremque quidem veniam, non ratione iusto.
+    </p>
+    <h3>Encabezado 3</h3>
+    <p>
+        <!-- sub = subindice para representar numeros chiquitos-->
+        h <sub>2</sub>0
+        <br> Pi x <sub>2</sub>
+
+
+    </p>
+
+
+    <h4>Encabezado 4</h4>
+    <p>      
+        <!-- ins subrrayar text -->
+        <ins>Texto subrrayado</ins>
+    </p>
+    <h5>Encabezado 5</h5>
+    <!-- img agregar imagen -->
+    <!-- src direccion de la imag o url de img web-->
+    <!-- alt  -->
+    <img src="Imagenes/taemin-33.jpeg" alt="">
+    <p>
+        <!-- listas -->
+        <!-- ol listas ordenadas con numerador-->
+        <ol>
+            <!-- li*4 + tabulador -->
+            <li>Elemento 1</li>
+            <li>Elemento 2</li>
+            <li>Elemento 3</li>
+            <li>Elemento 4</li>
+        </ol>
+        <!-- ul lista desordenadas con puntitos-->
+        <ul>
+            <li>Elemento 5</li>
+            <li>Elemento 6</li>
+            <li>Elemento 7</li>
+        </ul>
+    </p>
+
+    <h5>Parrafo 6</h5>
+    <p>
+        <!-- a = etiqueta para agregar hipervinculos con parametros 
+         href = enlace de la pag.-->
+         <a href="http://facebook.com"> Vamos a fb</a>
+         <br>
+         Imagen como un enlace
+         <!-- Imagen como enlace -->
+         <a href="http://google.com"><img src="Imagenes/taemin-21.jpeg" alt=""></a>
+    </p>
+    <br>
+    <br>
+    ________________________
+
+    <!-- Etiquetas Crear tablas -->
+    <table>
+        <tr>
+            <!-- Encabezado de tablas -->
+        <th>Encabezado 1</th>
+        <th>Encabezado 2</th>
+        <th>Encabezado 3</th>
+        </tr>
+
+        <tr><!-- Table row / fila-->
+            <!-- contenido -->
+            <td>Elemento 1</td>
+            <td>Elemento 2</td>
+            <td>Elemento 3</td>
+        </tr>
+        <tr><!-- Fila 2 -->
+            <td>Elemento 4</td>
+        </tr>
+    </table>
+<br>
+<br>
+_______________________
+
+<!-- Etiquetas Elementos de bloque -->
+
+<h2>Mi primera pag html</h2>
+    <p>Este es el primer <strong>Layout </strong> del curso de diseño web html5 y css3</p>
+
+<!-- Definir el encabezado de la pag -->
+<header> 
+    <!-- puede ir un logotipo, banner, menus, enlaces,
+    barras de navegación --> 
+    <h2>Encabezado 1</h2>
+</header>
+<!-- define la barra de navegación (menu) -->
+<nav>        
+</nav>
+<!-- define una seccion de pag -->
+<section> 
+    <!-- Barra de navegacion -->
+    <nav>
+    <!-- las listas desordenadas ayudan a crear una barra, no se usa lista ordenada porque usa numeros -->
+        <ul> <!-- ul>li*3 -->
+            <li> <a href="#">Inicio</a> </li><!-- # anula la función de enlace -->
+            <li> <a href="#">Quienes somos</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+
+    </nav>
+
+    <article>
+        <h1>Mi articulo</h1>
+        <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam obcaecati distinctio amet qui rem esse repellat dicta voluptate illo perferendis suscipit illum quam facere, natus omnis delectus sit et nemo.
+        </p>
+
+    </article>
+</section>
+
+<!-- Barra lateral -->
+<aside>
+</aside>
+
+<!-- Pie de pag -->
+<footer> Pie de pagina
+</footer>
+
+</body>
+</html>

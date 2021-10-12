@@ -1,0 +1,135 @@
+/* fuente del estilo importando*/
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body{
+/* Fondo */
+background-image: url("Imagenes/FondoBody.jpg")
+    
+}
+#container{/* para modificar el contenedor */
+width: 100%;
+
+}
+
+header img{/* Configuración de logo */
+    width: 125px;
+    height: 120px;
+    float: left;
+    border-radius: 50%;
+    box-shadow: 12px 2px 17px rgb(99, 95, 95);/* sombra */
+}
+header{/* Config encabezado */
+    width: 100%;
+    height: 120px;   
+    margin: 0px;
+    text-align: center;
+    line-height: 150px; 
+    font-family: 'Bebas Neue', cursive; /* tipo de estilo importada */
+    color: azure;
+    font-size: 30px;/* tamaño encabezado */
+    text-shadow: -8px 7px #6b7e91;/* sombra*/
+}
+nav a{/* Configuración de MENU-text, especificando los elementos a */
+        text-decoration: none;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: #DDDDDD;
+        transition: all 0.5s;
+}
+nav a:hover{
+    color: cadetblue;
+    font-size: 20px;
+}
+
+nav ul li{/* config estilo menu */
+        float: left;
+        list-style: none;
+        margin: 20px;
+        list-style: 25px;
+      
+}
+nav{/* config tipo barra */
+    width: 100%;
+    height: 60px;
+    background: #252627;
+}
+#contenido{
+    width: 50%;
+    min-height: 500px;
+    padding: 5px;/* relleno entre los lados*/
+    float: left;
+}
+#art1 h2{/* titulo*/
+    text-shadow: -6px 5px #4a4d26;/* sombra*/
+    text-align:center;
+}
+#art1 img{/* config img primer articulo */
+    width: 200px;
+    height: 180px;
+    float: left;
+    margin: 0px;
+    padding: 15px;
+}
+#art1 p{/* Config de parrafo del primer articulo */
+    padding: 4px;/* relleno */
+    text-align: justify;
+   
+}
+#art1{/* config art 1 fondo*/
+    margin-top: 5px;
+    margin-bottom: 15px;
+    /* padding-bottom: 10px; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url("Imagenes/fondoContactoo.png")  ;
+    color: seashell;
+    font-size: 18px; /* tamaño de letra */
+    min-height: 280px; /* tamaño fondo */
+    margin: 0;
+    padding: 10px;  
+}
+
+aside h5{
+    color: rgb(224, 180, 58);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px; /* tamaño de letra */
+
+}
+aside p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px; /* tamaño de letra */
+    text-align: justify;
+    padding: 10px;
+    
+}
+
+aside{/* Config barra lateral */
+    margin-top: 20px;
+    float: right;
+    width: 18%;/* grosor */
+    min-height: 750px;
+    font-size: 30px;/* tamaño encabezado */
+    background: #0b818ab2;
+    color: azure;
+    text-shadow: -5px 4px #526f80;/* sombra*/
+    text-align: center;
+    font-family: 'Bebas Neue', cursive; /* tipo de estilo importada */
+    
+}
+
+footer{/* config pie de pag */
+    background: #252627;
+    color:#3393ac;
+    text-align: center;
+    height: 60px;
+    line-height: 60px;
+/*     font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    font-family: 'Bebas Neue', cursive; /* tipo de estilo importada */
+    font-size: 30px;/* tamaño letra */
+    
+}
+
+
+
+.clearfix{/* regla aplicar los cambios */
+    clear: both;
+}
+

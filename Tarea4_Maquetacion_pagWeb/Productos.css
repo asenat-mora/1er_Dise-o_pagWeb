@@ -1,0 +1,105 @@
+/* fuente del estilo importando*/
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body{
+/* Fondo */
+background-image: url("Imagenes/FondoBody.jpg")
+    
+}
+#container{/* para modificar el contenedor */
+width: 100%;
+
+}
+
+header img{/* Configuración de logo */
+    width: 125px;
+    height: 120px;
+    float: left;
+    border-radius: 50%;
+    box-shadow: 12px 2px 17px rgb(99, 95, 95);/* sombra */
+}
+header{/* Config encabezado */
+    width: 100%;
+    height: 120px;   
+    margin: 0px;
+    text-align: center;
+    line-height: 150px; 
+    font-family: 'Bebas Neue', cursive; /* tipo de estilo importada */
+    color: azure;
+    font-size: 30px;/* tamaño encabezado */
+    text-shadow: -8px 7px #6b7e91;/* sombra*/
+}
+nav a{/* Configuración de MENU-text, especificando los elementos a */
+        text-decoration: none;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: #DDDDDD;
+        transition: all 0.5s;
+}
+nav a:hover{
+    color: cadetblue;
+    font-size: 20px;
+}
+
+nav ul li{/* config estilo menu */
+        float: left;
+        list-style: none;
+        margin: 20px;
+        list-style: 25px;
+      
+}
+nav{/* config tipo barra */
+    width: 100%;
+    height: 60px;
+    background: #252627;
+}
+
+#art2 h2{/* titulo*/
+    text-shadow: -5px 5px #3c5faaa6;/* sombra*/
+}
+#art2 p{/* Config de parrafo del segundo articulo */
+    padding: 2px;/* relleno */
+    text-align: justify;
+   
+}
+#art2 ul{/* Config de parrafo del segundo articulo */
+    padding: 20px;/* relleno */
+    text-align: justify;
+   
+}
+#art2 img{/* config img segundo articulo */
+    width: 250px;
+    height: 190px;
+    float: right;
+    /* margin: 25px; */
+    padding: 15px;
+    margin: 1%;
+}
+#art2{/* config art 2 */
+    margin-top: 5px;
+    margin-bottom: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url("Imagenes/fondo2.png" ) ;
+    color: seashell;
+    font-size: 20px;
+    min-height: 150px;
+    padding: 10px;
+ 
+    
+}
+
+
+footer{/* config pie de pag */
+    background: #252627;
+    color:#3393ac;
+    text-align: center;
+    height: 60px;
+    line-height: 60px;
+/*     font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    font-family: 'Bebas Neue', cursive; /* tipo de estilo importada */
+    font-size: 30px;/* tamaño letra */
+    
+}
+
+
+
+
